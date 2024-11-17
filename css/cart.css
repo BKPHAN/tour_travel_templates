@@ -1,0 +1,198 @@
+.animated-slide {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #000000;
+    position: relative;
+    animation: slide-in 5s ease-in-out infinite;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/*-----------------------------------------*/
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tourForm{
+    width: 50%;
+    padding: 20px;
+    border: 1px solid;
+}
+
+form h2, form h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+form h2, form h3 {
+    margin-bottom: 15px;
+}
+
+.payment-methods {
+    padding-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.payment-methods h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.payment-methods h3 .icon {
+    width: 20px;
+    height: 20px;
+    /*background: url('icon-placeholder.png') no-repeat center;*/
+    margin-right: 10px;
+}
+
+.method-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.payment-option {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 1 1 calc(50% - 10px);
+    position: relative;
+}
+
+.payment-option input[type="radio"] {
+    position: absolute;
+    top: 32px;
+    left: 25px;
+    margin: 0;
+}
+
+.payment-option label {
+    display: block;
+    cursor: pointer;
+}
+
+.company-btn, .online-btn {
+    display: flex;
+    align-items: center;
+    background: #d32f2f;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.online-btn {
+    background: #0070ba;
+}
+
+.company-btn i, .online-btn i {
+    margin-right: 10px;
+    /*background: url('icon-placeholder.png') no-repeat center;*/
+    width: 16px;
+    height: 16px;
+}
+
+.address {
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.bank-details {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.bank-details h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+

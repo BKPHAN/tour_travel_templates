@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TRANG CHỦ</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/north.css">
+    <link rel="stylesheet" href="../css/pagination.css">
+</head>
+
+<body>
+<div class="app">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 fixed-top" style="height: 78px;">
+            <div class="container-fluid bg-white">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/files/Vietnam%20Travel%20Group.jpg"
+                         alt="" style="width: 60px; height: 60px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="gap: 20px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../home.html">
+                                <h6 class="title-nav">Trang chủ</h6>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="introduction.html">
+                                <h6 class="title-nav">Giới thiệu</h6>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                               role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <h6 class="title-nav">
+                                    TOUR DU LỊCH
+                                </h6>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Tour 2025</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggles" role="button" data-bs-toggle="dropdown"
+                                       aria-expanded="false" href="#">
+                                        Tour Trong Nước
+                                        <span class="arrow">&#8250;</span> <!-- Mũi tên ngang -->
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item child-item" href="./north_detail.html">Miền
+                                            Bắc</a></li>
+                                        <li><a class="dropdown-item child-item" href="./central_detail.html">Miền
+                                            Trung</a></li>
+                                        <li><a class="dropdown-item child-item" href="./highlands_detail.html">Miền
+                                            Tây</a>
+                                        </li>
+                                        <li><a class="dropdown-item child-item" href="./south_detail.html">Miền Nam</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Tour Nước Ngoài</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./news.html">
+                                <h6 class="title-nav">TIN TỨC</h6>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./libra_image.html">
+                                <h6 class="title-nav">THƯ VIỆN</h6>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">
+                                <h6 class="title-nav">LIÊN HỆ</h6>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">
+                                <h6 class="title-nav">LOGOUT</h6>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner" style="background-image: url('../images/TourTayNguyen.jpg');">
+    </div>
+
+    <section>
+        <div class="section_list_card">
+            <div class="container" style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 40px;
+                    flex-wrap: wrap;
+                ">
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 4 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 4 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 4 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 4 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+                <div class="card tour-card">
+                    <!-- Discount Badge -->
+                    <div class="discount-badge">- 12%</div>
+
+                    <!-- Card Image -->
+                    <div class="tour-image"
+                         style="background-image: url(https://www.vietnamtravelgroup.com.vn/datafiles/32985/upload/images/albums/%E1%BA%A2nh%20T%E1%BA%BFt/HANOI-SAPA.jpg)">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <!-- Tour Title -->
+                        <h5 class="tour-title">HÀ NỘI - SAPA 4 NGÀY 3 ĐÊM</h5>
+
+                        <!-- Tour Info -->
+                        <ul class="list-unstyled mb-2">
+                            <li><i class="bi bi-calendar"></i> 4 Ngày 3 Đêm</li>
+                            <li><i class="bi bi-clock"></i> Hàng tuần</li>
+                            <li><i class="bi bi-car-front"></i> Ô tô/ Máy bay</li>
+                            <li><i class="bi bi-star-fill"></i> Khách sạn 2-5 sao</li>
+                            <li><i class="bi bi-people-fill"></i> Số lượng khách: 10</li>
+                        </ul>
+
+                        <!-- Prices -->
+                        <p>
+                            <span class="price">4.390.000 vnd</span>
+                            <span class="old-price">4.990.000 vnd</span>
+                        </p>
+
+                        <!-- More Details Link -->
+                        <a href="./tour_detail.html" class="text-primary">Xem Thêm &raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination" id="pagination"></div>
+        <!-- Nút "Lên Đầu Trang" -->
+        <button id="backToTopBtn">▲</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer style="background-color: #1a1a1a; color: white; padding: 40px 20px;">
+        <div class="container">
+            <div class="row">
+                <!-- Company Info -->
+                <div class="col-md-4">
+                    <div style="font-size: 18px; font-weight: bold;">VIETNAM TRAVEL GROUP JSC I
+                    </div>
+                    <p>55 Đỗ Quang Đẩu, P. Phạm Ngũ Lão, Quận 1, Thành Phố Hồ Chí Minh</p>
+                    <p>Tổng đài: (028) 7307 9999 - (+84) 935 746 946</p>
+                    <p>Email: booking@travelgroup.com.vn</p>
+                    <p>Giấy phép đăng kí kinh doanh (Mã số thuế): 0311109560 do Sở KHĐT TP.HCM
+                        cấp.</p>
+                    <p>Giấy phép Lữ hành quốc tế: /TCDL-GPLHQT</p>
+                </div>
+
+                <!-- Newsletter Subscription -->
+                <div class="col-md-4">
+                    <div style="font-size: 18px; font-weight: bold;">ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI
+                    </div>
+                    <div class="subscription-box"
+                         style="display: flex; align-items: center; margin-bottom: 20px;">
+                        <input type="email" placeholder="Địa chỉ email....."
+                               style="padding: 8px; width: 70%; border: none; border-radius: 5px;">
+                        <button
+                                style="padding: 8px 16px; background-color: #007bff; color: white; border: none; border-radius: 5px; margin-left: 5px;">
+                            Đăng
+                            ký
+                        </button>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold;">KẾT NỐI VỚI CHÚNG TÔI
+                    </div>
+                </div>
+
+                <!-- Office Branches -->
+                <div class="col-md-4">
+                    <div style="font-size: 18px; font-weight: bold;">CÁC CHI NHÁNH VĂN PHÒNG
+                    </div>
+                    <p><i class="bi bi-geo-alt-fill"></i> CHI NHÁNH TP HỒ CHÍ MINH<br>
+                        ĐỊA CHỈ: 55 Đỗ Quang Đẩu, P. Phạm Ngũ Lão, Quận 1, Thành Phố Hồ Chí
+                        Minh<br>
+                        LIÊN HỆ: (+84) 28 7307 9999 - (+84) 935 746 946</p>
+                    <p><i class="bi bi-geo-alt-fill"></i> CHI NHÁNH PHÚ QUỐC<br>
+                        ĐỊA CHỈ: Tổ 8, Lô A, Khu Tái Định Cư, Khu Phố 5, Phường Dương Đông,
+                        Thành Phố Phú Quốc, Tỉnh Kiên Giang, Việt Nam<br>
+                        LIÊN HỆ: (+84) 28 7307 9999 - (+84) 945407997</p>
+                    <p><i class="bi bi-geo-alt-fill"></i> CHI NHÁNH BUÔN MA THUỘT<br>
+                        ĐỊA CHỈ: 159/2 Trần Quý Cáp, P.Tự An, TP. Buôn Ma Thuột, Tỉnh Đak
+                        Lak<br>
+                        LIÊN HỆ: (+84) 28 7307 9999 - 0917486879</p>
+                    <p><i class="bi bi-geo-alt-fill"></i> CHI NHÁNH HUẾ<br>
+                        ĐỊA CHỈ: 31 Chu Văn An, Thành Phố Huế, Tỉnh Thừa Thiên Huế<br>
+                        LIÊN HỆ: (+84) 917486879 - 02873079999</p>
+                    <p><i class="bi bi-geo-alt-fill"></i> CHI NHÁNH HÀ NỘI<br>
+                        ĐỊA CHỈ: Số 22,1/122 Phú Viên, Bồ Đề, Long Biên, Thủ Đô Hà Nội<br>
+                        LIÊN HỆ: (+84) 917486879 - 02873079999</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<!-- Thêm file JavaScript -->
+<script src="../js/pagination.js"></script>
+<script src="../js/script.js"></script>
+</body>
+
+</html>

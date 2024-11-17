@@ -1,0 +1,259 @@
+.animated-slide {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #000000;
+    position: relative;
+    animation: slide-in 5s ease-in-out infinite;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/*-----------------------------------------*/
+
+/* Tour Banner */
+.tour-banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tour-title
+{
+    font-size: 35px;
+    border-bottom: 1px solid #ef3232;
+}
+/* Tour Details */
+.tour-details {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 49.5vh;
+}
+
+.tour-details h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #007bff;
+}
+
+/* Itinerary */
+.itinerary {
+    max-width: 118vh;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.itinerary h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Booking Section */
+.booking {
+    max-width: 118vh;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking h2 {
+    color: #007bff;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.booking-form input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Container chính cho slideshow và thông tin */
+.content-container {
+    display: flex;
+    align-items: flex-start; /* Căn đầu các phần tử ngang nhau */
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Container chính */
+.tour-price-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Phần giá */
+.price-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.price-current {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.price-old {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 1.2rem;
+}
+
+/* Nút đặt tour */
+.btn-book {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-book:hover {
+    background-color: #0056b3;
+}
+
+/* Thẻ tag */
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tag-icon {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.tag {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 16px;
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tag:hover {
+    background-color: #ee2e2e;
+}
+
+/*--------------------------------*/
+/* Slideshow */
+.slideshow {
+    position: relative;
+    max-width: 50%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 250%;
+}
+
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+    /* Thêm thuộc tính này để giữ nguyên tỷ lệ ảnh */
+    object-fit: contain; /* Đảm bảo toàn bộ ảnh hiển thị mà không bị cắt */
+    object-position: center; /* Căn giữa hình ảnh */
+    background-color: #fff; /* Đặt màu nền nếu ảnh không lấp đầy */
+}
+
+/* Nút điều hướng */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

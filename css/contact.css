@@ -1,0 +1,139 @@
+.animated-slide {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #000000;
+    position: relative;
+    animation: slide-in 5s ease-in-out infinite;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-info h2, .contact-form h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-info h3, .contact-info h4 {
+    margin: 10px 0;
+    color: #555;
+}
+
+.contact-info p, .contact-form p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.captcha {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.captcha #captcha {
+    background-color: #eee;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.captcha button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buttons button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttons button:first-child {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.buttons button:last-child {
+    background-color: #f8f9fa;
+}
+
+button{
+    margin: 5% 0;
+}
+
+.submit{
+    width: 25%;
+}
+
+.reset{
+    width: 25%;
+    background-color: #007bff !important;
+    color: #fff;
+}
