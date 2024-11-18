@@ -1,0 +1,20 @@
+đường dẫn thư mục				
+				
+css				
+	cart	css của màn thanh toán		
+	contact	css màn thông tin liên hệ		
+	libra_image	css màn thư viện hình ảnh		
+	login	css màn đăng nhập		
+	news	css màn tin tức		
+	north	css màn tour miền bắc/và các tour miền  khác		
+	style	css màn hôm		
+	tour_detail	css màn chi tiết tour		
+	pagination	css chức năng phân trang		
+				
+js				
+	tương tự như tên file css			
+				
+templates				
+	tương tự như tên trong file css			
+				
+images	đường dẫn toàn bộ hình ảnh sử dụng			
