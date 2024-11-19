@@ -254,3 +254,12 @@ img {
     width: 107px;
     height: 65px;
 }
+
+
+.navbar-toggler {
+    border: none;
+    padding: 0.25rem;
+}
+.navbar-collapse {
+    justify-content: space-between;
+}

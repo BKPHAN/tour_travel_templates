@@ -109,7 +109,7 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
     const password = document.getElementById("password").value;
 
     if (email && password) {
-        window.location.href = '../home.html';
+        window.location.href = '../index.html';
         // alert(`Welcome back! You have logged in successfully.`);
         // Add logic here to handle authentication, e.g., send data to the server
     } else {
